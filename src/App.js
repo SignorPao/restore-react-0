@@ -1,9 +1,11 @@
 import React from "react";
+import TopBar from "./components/TopBar";
 
 function App() {
   return (
     <div>
-      <h2>RECOVERY</h2>
+      <TopBar />
+      <h2 className="text-red-500 text-3xl">RECOVERY</h2>
     </div>
   );
 }
