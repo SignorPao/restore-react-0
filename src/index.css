@@ -29,4 +29,8 @@
   h2 {
     @apply text-xl font-bold;
   }
+
+  label {
+    @apply text-sm font-medium;
+  }
 }
